@@ -1,0 +1,46 @@
+.homeContainer {
+  background-image: url(../../public/bg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.75;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeContainer .title {
+  width: 75%;
+  margin: 35px 0;
+  border-bottom: 1px solid #FFF;
+  box-shadow: 0 5px 5px -5px #FFF;
+}
+
+.homeContainer .title h1 {
+  font-weight: 600;
+  text-align: center;
+  font-size: xx-large;
+  padding-bottom: 15px;
+  color: #FFF;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: url(../../public/bg3.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.adminContainer {
+  background: rgb(118,173,230);
+  background: linear-gradient(90deg, rgba(118,173,230,1) 0%, rgb(168, 118, 230) 50%, rgba(230,118,194,1) 100%);
+  opacity: 0.75;
+  padding-bottom: 50px;
+}

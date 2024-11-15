@@ -1,0 +1,63 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 30px 0;
+  background-color: #97ACC1;
+  box-shadow: 1px 1px 20px #000;
+}
+
+.logo {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.logo h1 {
+  font-size: x-large;
+}
+
+#event {
+  color: #FFFF;
+  margin-left: 5px;
+}
+
+.navContainer {
+  width: 50%;
+}
+
+.navContainer nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%;
+}
+
+.navContainer nav ul li {
+  position: block;
+  margin: 0 20px;
+  font-size: 1.3rem;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+/* Para fazer o efeito de linha no hover */
+.navContainer nav ul li:hover {
+  color: #FFFF;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+}
+
+.navContainer nav ul li:after {
+  content: '';
+  display: block;
+  border-bottom: solid 2px #FFFF;
+  border-radius: 2px;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.navContainer nav ul li:hover:after {
+  transform: scaleX(1);
+}

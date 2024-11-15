@@ -1,0 +1,151 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title, .subTitle {
+  width: 75%;
+  margin: 35px 0;
+  border-bottom: 1px solid #FFF;
+  box-shadow: 0 5px 5px -5px #FFF;
+}
+
+.subTitle {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 5px 5px -5px #666;
+}
+
+.title h1, .subTitle h2 {
+  font-weight: 600;
+  text-align: center;
+  font-size: xx-large;
+  padding-bottom: 15px;
+  color: #FFF;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.subTitle h2 {
+  color: #000;
+  text-shadow: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  background-color: #FFF;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.groupContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding-bottom: 50px;
+}
+
+.createContainer {
+  align-self: flex-end;
+  margin-right: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: #000;
+  padding: 10px;
+  background: #FFC184;
+  background-image: linear-gradient(90deg, #FFD8B8, #FFC184, #FFC184, #A876E6);
+  background-size: 300% ;
+  background-position: left;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 500ms background-position ease-in-out;
+}
+
+.createContainer i {
+  margin-right: 5px;
+  transform: translateY(10%);
+}
+
+.createContainer:hover {
+  background-position: right; 
+} 
+
+.tableContainer {
+  width: 95%;
+  max-height: calc(100% - 2rem);
+  margin: 0.8rem auto;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.tableContainer table, 
+.tableContainer th, 
+.tableContainer td {
+  border-collapse: collapse;
+  padding: 1rem;
+}
+
+.tableContainer thead th {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #FFC184;
+}
+
+.tableContainer table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.tableContainer tbody {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.tableContainer tbody tr td a{
+  margin: 0 2px;
+}
+
+.email {
+  font-size: 1rem;
+}
+
+.tableContainer tr{
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.tableContainer tbody tr:hover {
+  background-color: #f8c99a5d;
+}
+
+.evenRow {
+  background-color: #FFF;
+}
+
+.oddRow {
+  background-color: #dddddd73;
+}
+
+.read {
+  color: #228B22;
+}
+
+.edit {
+  color: #0044CC;
+}
+
+.delete {
+  color: #FF5E62;
+  background: none;
+  border: none;
+}

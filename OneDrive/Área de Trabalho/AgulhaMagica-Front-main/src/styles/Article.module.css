@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  background-color: #FFF;
+  border-radius: 10px;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+.infoContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.infoContainer h3 {
+  font-weight: 600;
+  text-align: center;
+  font-size: xx-large;
+  color: #000;
+  width: 110%;
+  padding: 20px 0px 15px 0px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #000;
+  box-shadow: 0 5px 5px -5px #666;
+}
+
+.infoContainer p {
+  font-size: large;
+  text-align: justify;
+  padding: 10px;
+}
+
+.imgContainer {
+  max-width: 80%;
+  margin-top: 20px;
+}
+
+.imgContainer img {
+  max-width: 70%;
+  margin-left: 15%;
+}
+
+.publishContainer {
+  display: flex;
+  margin-top: 5%;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.likeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0px;
+  padding: 5px 0;
+}
+
+.likeContainer span {
+  font-size: 1.2rem;
+}
+
+.btn {
+  padding: 5px 10px;
+  color: #000;
+  background: none;
+  border: none;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  color: #FD1D1D;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+}
